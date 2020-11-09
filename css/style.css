@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+#main{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../Imgaes/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -135px; 
+} 
+.border{
+    width: 100%;
+    height: 35px;
+    background-color: #FE525B;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: 100;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background-color: #ffffffc9;
+    margin-bottom: 15px;
+    
+}
+ .navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    line-height: 0px;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    /* position: relative; */
+}
+.navbar ul{
+    text-align: center; 
+    margin-bottom: 50px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    padding: 50px;
+}
+
+#main .title h2,h4{
+       color: white;  
+       text-align: center;
+} 
+#main .title h2{
+    font-weight: 100;
+    font-size: 30px;
+    padding-top: 6%;
+    padding-right: 19%;
+}
+#main .title h4{
+    font-size: 75px;
+    padding-top: 10px;
+     line-height: 90px;    
+}
+.hover::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(204, 98, 98);
+    transition: width .3s;
+    margin-top: 15px;
+}
+
+.hover:hover::after {
+    width: 115%;
+    transition: width .3s;
+
+}
+.container{
+    width: 100%;
+    height: 80vh;
+}
+.container h2{
+    font-size: 50px;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 5%;
+}
+.container h2::after{
+    content: '';
+    position: absolute;
+    width: 5%;
+    height: 2px;
+    background-color: red;
+    bottom: -150px;
+    left:    48%;
+}
+.counter{
+    display: flex;
+    margin-top: 50px;
+    padding-left: 500px;
+  
+}
+.counter div{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    background: #333;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 3em;
+    font-weight: 500;
+}
+.counter div::before{
+    content: '';
+    position: absolute;
+    bottom: -35px;
+    right: 0px;
+    width: 100%;
+    height: 40px;
+    background: #ff0;
+    color: #333;
+    font-size: 0.35em;
+    line-height: 35px;
+    font-weight: 300;
+}
+.counter #day::before{
+    content: 'Days';
+    padding-top: 5px;
+}
+.counter #hour::before{
+    content: 'Hours';
+    padding-top: 5px;
+}
+.counter #minute::before{
+    content: 'Minute';
+    padding-top: 5px;
+}
+.counter #second::before{
+    content: 'Second';
+    padding-top: 5px;
+}
+.container2{
+    width: 100%;
+    height: 300px;
+    background-color: teal;
+    text-align: center;
+    color: white;
+    margin-top: 20%;
+}
+.container2 h2{
+    padding-top: 50px;
+    font-size: 50px;
+}
+.container2 h5{
+              font-size: 30px;
+              font-weight: 100;
+}
+.container2 button{
+    margin-top: 30px;
+    margin-left: 45px;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    border-color: white;
+}
+.container2 button:hover
+{
+   cursor: pointer;
+   background-color: #FE525B;
+}
+.container5{
+    width: 100%;
+    height: 800px;
+}
+.img1{
+    float: left;
+    
+}
+.gallery .img1:hover {
+    background-color: white;
+   
+}
+.container3{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    margin-top: 10%;
+
+}
+.container3 h2{
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: 100;
+}
+.container3 .pay{
+      width: 1100px;
+      text-align: center;
+      margin-left: 13%;
+     
+}
+.container3 img{
+    width: 120px;
+    height: 90px;
+    padding-top: 5%;
+}
+
+
+#contact{
+    width: 100%;
+}
+.address{
+    width: 50%;
+    background-color: #232323;
+    height: 500px;
+    float: left;
+    padding-top: 10%;
+    color: white;
+
+    /* margin-left: 0%; */
+}
+.address .div1 h2{
+    font-size: 60px;
+}
+.address .div2{
+         padding-left: 20%;
+         line-height: 50px;
+}
+
+.address .div2 p{
+    font-size: 30px;
+    padding-top: 15px;
+}
+.address p{
+    font-size: 25px;
+    line-height: 50px;
+}
+.address i{
+    float: left;
+    padding-right: 15px;
+    padding-left: 20%;
+    /* color: purple; */
+    line-height: 50px;
+    font-size: 25px ;
+}
+.icon3 a{
+    color: gray;
+}
+
+
+.address p{
+    text-align: left;
+}
+
+#box{
+    width: 100%;
+}
+
+.leftbox {
+    width: 40%;
+    background-color: #232323;
+    float: left;
+    height: 425px;
+    padding-top: 5%;
+}
+.leftbox .icon4,h2
+{
+    margin-left: 20%;
+
+}
+.leftbox,h2
+{
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+}
+.icon4{
+    font-size: 28px;
+    padding-top: 20px;
+ 
+}
+
+.rightbox {
+    width: 60%;
+    background-color: #232323;
+    float: left;
+    height: 500px;
+}
+.rightbox .links,a{
+    padding-top: 8%;
+    padding-left: 5%;
+    font-size: 20px;
+}
+.rightbox .links,a{
+    color: white;
+    text-decoration: none;
+}
+.rightbox .links,a:hover{
+    color: gray;
+}
+.rightbox h2{
+    font-size: 19px;
+    padding-top: 30px;
+    margin-left: 10%;
+}
+.button1{
+    font-size: 15px;
+    padding-top: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+    border-radius: 50px;
+    margin-left: 15px;
+    background-color: #FE0613;
+    color: white;
+    outline: none;
+    border: none;
+}
+.rightbox .text2 h4
+{ 
+     font-weight: 100;            
+     margin-left: -25%;
+     padding-top: 30px;
+     font-size: 20px;
+}
+.rightbox .text3,h5{
+      color: white;
+      font-size: 18px;
+      font-weight: 100;
+      padding-left: 45px;
+      padding-top: 15px;
+} 
+.rightbox .supporting{
+     width: 50%;
+     display: flex;
+     margin-left: 75px;
+
+}
+.rightbox.supporting,.img5{
+    width: 70px;
+    padding-top: 15px;
+    padding-left: 15px;
+    
+} 
